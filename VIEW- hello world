@@ -1,0 +1,7 @@
+<?php
+use yii\helpers\Html;
+?>
+<header > <i> <font size="10" color="red" face="Courier New" >
+<?= Html::encode($message)?>
+</font> </i> </header>
+<p1> <font size="5" color="blue" face="Courier New" > <b> Note: </b> This Message Was Sent To Me By You! </font>  </p1>
